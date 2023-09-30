@@ -1,0 +1,19 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34003.232
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementos de la solución", "Elementos de la solución", "{2D00E3D9-AC2E-4C05-BD7C-A52FF83FE473}"
+	ProjectSection(SolutionItems) = preProject
+		CifradoRansomwareHarrisonMontoya.py = CifradoRansomwareHarrisonMontoya.py
+		DesifradoRansomwareHarrisonMontoya.py = DesifradoRansomwareHarrisonMontoya.py
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F84D8C87-1234-40FA-BAAC-28AB27119C48}
+	EndGlobalSection
+EndGlobal
