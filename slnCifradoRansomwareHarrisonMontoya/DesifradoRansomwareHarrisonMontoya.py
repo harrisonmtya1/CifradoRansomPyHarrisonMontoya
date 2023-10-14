@@ -25,7 +25,7 @@ def decifrar(items,key):
         with open(item,'wb') as file:
             file.write(desencriptar_data)
 
-        os.rename(item,item + '.' + '.txt')
+        os.rename(item,item)
 
 
 
